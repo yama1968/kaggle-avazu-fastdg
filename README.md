@@ -10,7 +10,7 @@ You need to get the data from the Avazu CTR contest on Kaggle, or to use the sma
 
 Please refer to the Makefile, and to the help from:
 
-       python fastdg_v4_5.py -h
+    python fastdg_v4_5.py -h
 
 You can also test AdPredictor with:
 
