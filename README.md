@@ -4,6 +4,8 @@ This is a repository for the Good Timers Python implementation of Google FTRL Pr
 
 For more information, refer to http://bit.ly/CTRK1 and http://bit.ly/CBLOGBOOK1.
 
+Brought to you by: http://www.kaggle.com/users/214815/yannick-martel
+
 # Instructions
 
 You need to get the data from the Avazu CTR contest on Kaggle, or to use the small sample provided, small3.train.csv.
@@ -34,4 +36,3 @@ Thanks to tinrtgu for his http://www.kaggle.com/c/avazu-ctr-prediction/forums/t/
 
 Thanks to the team at Microsoft Research for AdPredictor, and as well to the Google FTRL team!
 
-http://www.kaggle.com/users/214815/yannick-martel
