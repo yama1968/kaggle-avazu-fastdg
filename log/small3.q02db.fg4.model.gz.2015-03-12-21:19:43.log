@@ -1,0 +1,54 @@
+pypy: /home/yannick/bin/anaconda3/bin/../lib/libssl.so.1.0.0: no version information available (required by pypy)
+pypy: /home/yannick/bin/anaconda3/bin/../lib/libcrypto.so.1.0.0: no version information available (required by pypy)
+Learning from small3.train.csv
+Creating from:
+L1	=> 0.1
+L2	=> 0.01
+action	=> train
+ad_alpha	=> 1.0
+ad_beta	=> 40.0
+ad_epsilon	=> 0.0
+ad_gamma	=> 0.0
+ad_sigma0	=> 1.0
+alpha	=> 0.01
+beta	=> 2
+bits	=> 17
+daily_device_counters	=> True
+delayed_learning_factor	=> 0
+device_counters	=> False
+dropout	=> 0.8
+explain	=> None
+feature_maps_dir	=> 
+group_fn	=> one
+group_hours	=> 3
+holdout	=> 100
+hourly_counters	=> True
+inmodel	=> None
+interactions	=> True
+learner_type	=> adpredictor
+limit_values	=> 
+max_w_update	=> 100.0
+min_learning_rate	=> 1e-50
+model_format	=> json_w_group_v1
+n_epochs	=> 1
+no_hour_day_feature	=> False
+nodayfeature	=> True
+onlydays	=> None
+outmodel	=> small3.q02db.fg4.model.gz
+predictions	=> /dev/stdout
+seed	=> 1234
+slowdown_sigma	=> 1.0
+sparse	=> False
+test	=> /dev/stdin
+train	=> small3.train.csv
+true_dropped	=> False
+user_app_site	=> True
+user_domain	=> False
+verbose	=> 3
+Using user_app_site flag
+..new days is 141021, resetting counters
+..new day for user_app_site is 141021, resetting counters
+Epoch 0 finished, 9999/9998 samples per pass, holdout logloss: 0.474694, elapsed time: 0:00:01.133754
+Writing in format json_mu_sigma2_adpredictor_v1 to file <gzip open file 'small3.q02db.fg4.model.gz', mode 'wb' at 0x00000000059ba870 0x2aefc7612ec0L>......done
+2.61user 0.02system 0:02.64elapsed 99%CPU (0avgtext+0avgdata 68320maxresident)k
+0inputs+4072outputs (0major+18281minor)pagefaults 0swaps

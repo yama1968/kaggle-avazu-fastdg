@@ -1,0 +1,56 @@
+pypy: /home/yannick/bin/anaconda3/bin/../lib/libssl.so.1.0.0: no version information available (required by pypy)
+pypy: /home/yannick/bin/anaconda3/bin/../lib/libcrypto.so.1.0.0: no version information available (required by pypy)
+Learning from small3.train.csv
+Creating from:
+L1	=> 0.01
+L2	=> 2.0
+action	=> train
+ad_alpha	=> 1.0
+ad_beta	=> 0.05
+ad_epsilon	=> 0.05
+ad_gamma	=> 0.0
+ad_sigma0	=> 1.0
+alpha	=> 0.01
+beta	=> 2.0
+bits	=> 17
+daily_device_counters	=> True
+delayed_learning_factor	=> 0.8
+device_counters	=> False
+dropout	=> 0.8
+explain	=> None
+feature_maps_dir	=> 
+group_fn	=> one
+group_hours	=> 2
+holdout	=> 100
+hourly_counters	=> True
+inmodel	=> None
+interactions	=> True
+learner_type	=> ftrl_group
+limit_values	=> limit_device_5.json
+max_w_update	=> 100.0
+min_learning_rate	=> 1e-50
+model_format	=> json_w_group_v1
+n_epochs	=> 2
+no_hour_day_feature	=> False
+nodayfeature	=> False
+onlydays	=> None
+outmodel	=> small3.g02a.fg4.model.gz
+predictions	=> /dev/stdout
+seed	=> 1234
+slowdown_sigma	=> 1.0
+sparse	=> False
+test	=> /dev/stdin
+train	=> small3.train.csv
+true_dropped	=> False
+user_app_site	=> False
+user_domain	=> False
+verbose	=> 3
+Forming new group learner with group fn one
+Loading limit file limit_device_5.json...... loaded
+..new days is 141021, resetting counters
+Epoch 0 finished, 9999/9998 samples per pass, holdout logloss: 0.462574, elapsed time: 0:00:01.876524
+..new days is 141021, resetting counters
+Epoch 1 finished, 9999/9998 samples per pass, holdout logloss: 0.413258, elapsed time: 0:00:02.811489
+Writing in format json_w_group_v1 to file <gzip open file 'small3.g02a.fg4.model.gz', mode 'wb' at 0x00002b67e447c020 0x2b67e474b610L>......done
+3.44user 0.06system 0:03.50elapsed 99%CPU (0avgtext+0avgdata 246352maxresident)k
+352inputs+1432outputs (2major+51698minor)pagefaults 0swaps
